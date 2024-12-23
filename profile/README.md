@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/9b2b40b6-c974-4bb2-97ca-c21715880793
 
 ## Configuration
 Go to [HomeDicator-Templates](https://github.com/HomeDicator/HomeDicator-Templates) and copy the `.yaml` for the device you are using (as of now only the SenseCap Indicator is supported) into your esphome config folder. This file will from now on be referred to as `device_config.yaml`.  
-Copy the folder `HomeDicator` from the [ESPHome-Package](https://github.com/HomeDicator/ESPHome-Package) into your esphome config folder.   
+Copy the folder `HomeDicator` from within the latest [ESPHome-Package](https://github.com/HomeDicator/ESPHome-Package/releases/latest) zip into your esphome config folder.   
 You can have multiple `device_config.yaml` files with different names for different devices.  
 The folder must retain its name and does not need to be duplicated for each device. 
 
