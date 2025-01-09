@@ -125,7 +125,7 @@ To show a numeric sensor value add the following block below `widgets:`.
 > [!NOTE]
 > `color`: The color that will be used for the icon and value label.  
 > `hass_sensor_id`: Must be the same as within the sensor config block.  
-> `icon`: Unicode codepoint of the icon you want to use. See [here](https://github.com/paviro/HomeDicator/blob/main/ESPHome/HomeDicator/core/config/fonts.yaml) for icons that are available.  
+> `icon`: Unicode codepoint of the icon you want to use. See [here](https://github.com/paviro/HomeDicator/blob/main/HomeDicator/core/config/common/fonts.yaml) for icons that are available.  
 > `unit`: Unit of the sensor.  
 > `title`: Title shown below the sensor value.
 
@@ -145,7 +145,7 @@ To control a heating thermostat add the following block below `widgets:`.
 > [!NOTE]
 > `color`: The color that will be used for the control gauge and temperature label.  
 > `hass_climate_id`: Must be the same as within the sensor config block.  
-> `icon` (wide versions only): Unicode codepoint of the icon you want to use. See [here](https://github.com/paviro/HomeDicator/blob/main/ESPHome/HomeDicator/core/config/fonts.yaml) for icons that are available.  
+> `icon` (wide versions only): Unicode codepoint of the icon you want to use. See [here](https://github.com/paviro/HomeDicator/blob/main/HomeDicator/core/config/common/fonts.yaml) for icons that are available.  
 > `title` (square version only): Title shown below the sensor value.   
 > `min_value`: The minimum value that is possible to set.   
 > `max_value`: The maximum value that is possible to set.   
